@@ -1,1 +1,1 @@
-# deep-pensieve
+# Deep Pensieve™
