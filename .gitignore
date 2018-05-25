@@ -1,6 +1,0 @@
-.gitignore
-.DS_Store
-.ipynb_checkpoints/
-libs/__pycache__/
-archive/
-models/
