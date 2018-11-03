@@ -462,3 +462,4 @@ def showImagesHorizontally(images=[]):
         a=fig.add_subplot(1,n_images,i+1)
         plt.imshow(images[i])
         plt.axis('off')
+        plt.show()
