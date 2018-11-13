@@ -456,10 +456,10 @@ def imcrop_tosquare(img):
     return crop
 
 def showImagesHorizontally(images=[]):
-    fig = plt.figure(dpi=90)
     n_images = len(images)
-    for i in range(n_images):
-        a=fig.add_subplot(1,n_images,i+1)
-        plt.imshow(images[i])
-        plt.axis('off')
-        plt.show()
+    fig = plt.figure(dpi=160)
+    plot_image = np.concatenate((images[0], images[1]), axis=1)
+    plt.axis('off')
+    plt.imshow(plot_image)
+    
+    

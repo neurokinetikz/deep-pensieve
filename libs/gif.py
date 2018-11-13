@@ -44,7 +44,7 @@ def build_gif(imgs, interval=0.1, dpi=72,
     fig.subplots_adjust(right=1)
     fig.subplots_adjust(left=0)
     ax.set_axis_off()
-    plt.rcParams["animation.convert_path"] = "/usr/local/bin/convert" 
+    plt.rcParams["animation.convert_path"] = "/usr/bin/convert" 
 
     if cmap is not None:
         axs = list(map(lambda x: [
